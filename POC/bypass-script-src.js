@@ -1,0 +1,1 @@
+console.log('BYPASSED SCRIPT SRC DIRECTIVE');

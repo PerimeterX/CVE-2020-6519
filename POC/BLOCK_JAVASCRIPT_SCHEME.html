@@ -1,0 +1,14 @@
+<html>
+	<head>
+	 <meta http-equiv="Content-Security-Policy" content="object-src 'none'; child-src 'none'; script-src 'self'">
+	 <script>
+	 document.cookie = 'COOKIE_VALUE_TO_BE_STOLEN';	
+	 </script>
+
+	</head>
+	<body>
+		<div id="LOG"></div>
+		<script src="./DEMO_LEGIT_FAIL.js"></script>
+		<script src="./DEMO_MALICIOUS_SUCCESS.js"></script>
+	</body>
+</html>
